@@ -14,7 +14,7 @@ jobs:
       - name: 'Before'
         run: ls
 
-      - users: actions/checkout@v3  
+      - uses: actions/checkout@v3  
 
       - name: 'After'
         run: ls
